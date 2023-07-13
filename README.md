@@ -40,7 +40,7 @@ First, shaka34 is compatible with any operating system layout that has its regul
 
 It means it is compatible with `qwerty`, but also with `qwerty international`, and many other system layouts. Personally, I am a French typist and I am using [qwerty lafayette 42](https://qwerty-lafayette.org/42). So the below screenshots are with lafayette, but it is close enough to qwerty, so you should not have any problems understanding even if it does not sound familiar.
 
-This repository contains the design of the layout and only [one implementation](./Atreus.ino) for the Atreus keyboard using [kaleidoscope](kaleidoscope.readthedocs.io/).
+This repository contains the design of the layout and only [one implementation](./src/Atreus.ino) for the Atreus keyboard using [kaleidoscope](kaleidoscope.readthedocs.io/).
 
 The layout has `space`, `ctrl` and `shift` on thumbs directly on the base layer. It makes it comfortable even for keyboard shortcuts. Also, it uses one-shot modifiers and one-shot layers. This means you can single-tap modifiers and have them applied to the next character, without having to hold them. Combined with one-shot layers, this allows to apply a modifier from another layer. This is similar to the [callum](https://keymapdb.com/keymaps/callum_oakley/) or the [seniply](https://stevep99.github.io/seniply/) layouts in that regard.
 

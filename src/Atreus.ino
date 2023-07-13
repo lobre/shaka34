@@ -103,8 +103,9 @@ const macro_t *macroAction(uint8_t macro_id, KeyEvent &event) {
   case MACRO_BASE:
     if (keyToggledOn(event.state)) {
       nn_locked = false;
+      Layer.deactivate(FN);
       Layer.deactivate(NN);
-      MoveToLayer(BASE);
+      Layer.deactivate(SYM);
       OneShot.cancel(true);
     }
     break;
@@ -163,4 +164,3 @@ void setup() {
 void loop() {
   Kaleidoscope.loop();
 }
-
