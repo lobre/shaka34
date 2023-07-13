@@ -4,14 +4,14 @@
 
 ## Introduction
 
-There are various sizes of ergonomic keyboards. 34-key has become a good reference to have a small enough keyboard while maintaining good ergonomics. However, as not all keys fit on the board, some choices have to be made, and some technics should be used to activate keys that don't have a reserved physical key. Shaka34 is a layout that is compatible with those 34-key keyboards. There are plenty of other layouts out there, but this one aims to avoid complicated techniques such as [home row mods](https://precondition.github.io/home-row-mods), combos, or tap dance. Those work for a lot of people, but the learning curve can be steep and the mental representation of the keyboard can become tricky.
+There are various sizes of ergonomic keyboards. 34-key has become a good reference to have a small enough keyboard while maintaining good ergonomics. However, as not all keys fit on the board, some choices have to be made, and some techniques should be used to activate keys that don't have a reserved physical key. Shaka34 is a layout that is compatible with those 34-key keyboards. There are plenty of other layouts out there, but this one aims to avoid complicated techniques such as [home row mods](https://precondition.github.io/home-row-mods), combos, or tap dance. Those work for a lot of people, but the learning curve can be steep and the mental representation of the keyboard can become tricky.
 
 For shaka34, only those 4 mechanisms are used:
 
-1. Layer shifts: key that will switch to another layer while being held (such as `shift`, `ctrl`, `alt` modifiers),
-2. Layer locks: key that will lock the keyboard to another layer as soon as tapped (such as `capslock`),
-3. OneShots: key that needs to be tapped once, and that will switch to another layer only for the next keypress.
-4. Double-tap: key that needs to be tapped twice to lock the keyboard to another layer.
+1. **Layer shifts**: key that will switch to another layer while being held (such as `shift`, `ctrl`, `alt` modifiers),
+2. **Layer locks**: key that will lock the keyboard to another layer as soon as tapped (such as `capslock`),
+3. **OneShots**: key that needs to be tapped once, and that will switch to another layer only for the next keypress.
+4. **Double-tap**: key that needs to be tapped twice to lock the keyboard to another layer.
 
 The double-tap is only used once in the layout and for a really specific unfrequent behavior.
 
@@ -52,7 +52,7 @@ Let's go to the interesting part now.
 
 This is the expected base layer with all letters. The star character is a dead key that lafayette uses as a dead key to input accentuated characters.
 
-<img src="https://raw.githubusercontent.com/lobre/shaka34/main/layers/layer_qwerty.png" width="500">
+<img src="https://raw.githubusercontent.com/lobre/shaka34/main/layers/layer_qwerty.png" width="600">
 
 As said above, you can find the main modifiers, and one layer key (which is the thumb layer key of the [shaka gesture](./gesture/README.md)) to bring you to the symbols layer.
 
@@ -62,7 +62,7 @@ Currently, there is no `altgr` key on the layout, but you can configure one on t
 
 All "regular" special characters can be found here. This layer is heavily inspired by the `altgr` layer of [qwerty lafayette 42](https://qwerty-lafayette.org/42#prog)
 
-<img src="https://raw.githubusercontent.com/lobre/shaka34/main/layers/layer_sym.png" width="500">
+<img src="https://raw.githubusercontent.com/lobre/shaka34/main/layers/layer_sym.png" width="600">
 
 You can also find there the 2 input control characters `esc` and `tab`.
 
@@ -74,7 +74,7 @@ Also note, that this symbols layer is optimized to chain special characters that
 
 This layer is raised by the pinky key of the shaka gesture. It allows to type numbers and reach out to navigation keys, but also to type other input control characters such as `enter` and `tab`.
 
-<img src="https://raw.githubusercontent.com/lobre/shaka34/main/layers/layer_nn.png" width="500">
+<img src="https://raw.githubusercontent.com/lobre/shaka34/main/layers/layer_nn.png" width="600">
 
 Those characters such as `enter` might seem far from the base layer, hence they might seem complicated to reach. But as explained in the [shaka gesture documentation](./gesture/README.md), the "double one-shot" allows you to rapidly get there.
 
@@ -102,7 +102,7 @@ To finish, at the bottom left corner of this layout, there is a key to reach and
 
 This layer will be rarely activated but can be helpful for some ad-hoc specific tasks such as raising the volume or doing a print screen.
 
-<img src="https://raw.githubusercontent.com/lobre/shaka34/main/layers/layer_fn.png" width="500">
+<img src="https://raw.githubusercontent.com/lobre/shaka34/main/layers/layer_fn.png" width="600">
 
 It is more complicated to reach this layer, but as it is rarely used, it is still a good tradeoff. As a reminder, to enable it, you can use the "double one-shot" technique. Which means:
 
