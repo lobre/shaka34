@@ -74,7 +74,9 @@ Also, the relationship between layer 2 and layer 3 is interesting. As you can to
 5. tap the pinky again to go back to layer 2,
 6. type the character `]`.
 
+
 To finish with the shaka gesture, there is one last behavior that it brings. Sometimes, even if layer 3 is meant for less frequent keys, it can be desired to want to stay in this layer for a long time. Let's say you are playing Snake with the arrow keys for instance. Holding the thumb key could become cumbersome. That is why there is one more motion. You can permanently lock layer 3 by double-tapping the pinky layer key. This way, even if you release your thumb key, the keyboard will stay on layer 3. You can then unlock it either by tapping the thumb or pinky key.
 
-I hope that you find this system interesting. Feel free to take inspiration for your own keymap!
+Ben Vallack has also taugh me through his videos about something valuable. When you are manipulating layers in an invisible way (no light indicator) and with layer locks, it can happen that you get lost and forget on which layer you are. So there should always be way to go back to the base layer without thinking. And with the shaka gesture, double-tapping the thumb key will just do that!
 
+I hope that you find this system interesting. Feel free to take inspiration for your own keymap!
