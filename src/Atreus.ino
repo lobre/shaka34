@@ -154,10 +154,14 @@ void tapDanceAction(uint8_t td_id, KeyAddr key_addr, uint8_t td_count, kaleidosc
   }
 }
 
+// completely disable sticky behavior whatever the key
+bool kaleidoscope::plugin::OneShot::isStickable(Key key) const {
+  return false;
+}
+
 void setup() {
   OneShot.enableAutoModifiers();
-  OneShot.disableStickability(OSL(SYM), OSL(NN));
-  OneShot.disableStickabilityForModifiers();
+  OneShot.setHoldTimeout(150);
   Kaleidoscope.setup();
 }
 
