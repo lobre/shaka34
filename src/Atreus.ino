@@ -68,15 +68,15 @@ KEYMAPS(
 
   [NN] = KEYMAP_STACKED
   (
-    Key_Esc,        Key_Home,       Key_UpArrow,    Key_End,         Key_Delete,
-    Key_LeftGui,    Key_LeftArrow,  Key_DownArrow,  Key_RightArrow,  Key_Tab,
-    LockLayer(FN),  Key_PageUp,     Key_PageDown,   Key_0,           LSHIFT(Key_Tab),  ___,
-    ___,            ___,            ___,            ___,             Key_LeftAlt,      Key_LeftControl,
+    Key_Esc,        Key_Home,         Key_UpArrow,    Key_End,         Key_PageUp,
+    Key_LeftGui,    Key_LeftArrow,    Key_DownArrow,  Key_RightArrow,  Key_PageDown,
+    LockLayer(FN),  LSHIFT(Key_Tab),  Key_Tab,        Key_Enter,       Key_Delete,    ___,
+    ___,            ___,              ___,            ___,             Key_LeftAlt,   Key_LeftControl,
 
-                    Key_Insert,  Key_7,  Key_8,  Key_9,  Key_Backspace,
-                    Key_Enter,   Key_4,  Key_5,  Key_6,  Key_Semicolon,
-    ___,            Key_Period,  Key_1,  Key_2,  Key_3,  M(MACRO_NN),
-    Key_LeftShift,  TD(TD_BASE),  ___,    ___,    ___,    ___
+                    Key_Semicolon,  Key_7,  Key_8,  Key_9,  Key_Backspace,
+                    Key_Period,     Key_4,  Key_5,  Key_6,  Key_0,
+    ___,            Key_Insert,     Key_1,  Key_2,  Key_3,  M(MACRO_NN),
+    Key_LeftShift,  TD(TD_BASE),    ___,    ___,    ___,    ___
   ),
 
   [FN] = KEYMAP_STACKED
